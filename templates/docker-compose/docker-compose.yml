@@ -17,7 +17,7 @@ services:
     links:
       - namesrv
     ports:
-      - 10909:10909
+      - 10919:10909
       - 10911:10911
       - 10912:10912
     environment:
@@ -36,8 +36,8 @@ services:
       - namesrv
     ports:
       - 10929:10909
-      - 10931:10911
-      - 10932:10912
+      - 10921:10911
+      - 10922:10912
     environment:
       - NAMESRV_ADDR=namesrv:9876
     volumes:
